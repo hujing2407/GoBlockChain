@@ -1,97 +1,84 @@
 {
 	"compiler": {
-		"version": "0.4.24+commit.e67f0147"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"constant": false,
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": true,
 				"inputs": [],
 				"name": "bal",
 				"outputs": [
 					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
-				"name": "getBasic",
+				"name": "contract_get_money",
 				"outputs": [
 					{
+						"internalType": "string",
 						"name": "",
 						"type": "string"
-					},
-					{
-						"name": "",
-						"type": "int256"
 					}
 				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "transToAddr",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [],
-				"name": "txToContract",
-				"outputs": [],
-				"payable": true,
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
-				"name": "ok",
+				"name": "get_balance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
+						"internalType": "address",
 						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Go-learning/02test_tx.sol": "Basic"
+			"contracts/Go-learning/02test_tx.sol": "Tx"
 		},
-		"evmVersion": "byzantium",
+		"evmVersion": "cancun",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -100,9 +87,11 @@
 	},
 	"sources": {
 		"contracts/Go-learning/02test_tx.sol": {
-			"keccak256": "0xc08a5ffa712805519005ddd4784b05b7f7d64d73df86d0ffb2a7091658579905",
+			"keccak256": "0xe926d7143f4403a42eebf83d2d1e3890c242c37558251ac96fe1e6f0f1c7a135",
+			"license": "MIT",
 			"urls": [
-				"bzzr://3ab83f31448b8d3fe842c8d8acb88cfc5af80c1b7348afd0f61eb6a5fa9d956e"
+				"bzz-raw://9bf83d9ab77f67b6ccf7d394814819d176dea34130efb73108f2167baa17eb33",
+				"dweb:/ipfs/QmU9511tcnxFmgK1TscXDM9M71PGpRgKKvgxRDvfNYWztk"
 			]
 		}
 	},
