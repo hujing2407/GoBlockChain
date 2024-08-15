@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get_owner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Go-learning/msg_sender.sol": "TestMsgSender"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Go-learning/msg_sender.sol": {
+			"keccak256": "0xff1875e54dc92b78b6d72432771b1d4c2cd5cd62b2ef5db8f94cac7e558c7753",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8539ec0fc96af293f71e77f9e96d1c17ce7a586f3ad7aab802f3148a3b1cfc16",
+				"dweb:/ipfs/QmW1Yc1fyWPRRAHY8fhBGiaahUmSLAtNcJ3R7RGHZVLJ1w"
+			]
+		}
+	},
+	"version": 1
+}
